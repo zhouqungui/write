@@ -1,6 +1,5 @@
 package com.zqungui.write.controller;
 
-import com.zqungui.write.model.UserEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

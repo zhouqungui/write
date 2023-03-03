@@ -2,6 +2,9 @@ package com.zqungui.write.controller;
 
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * @author 17370
+ */
 @RestController
 @RequestMapping(value = "/sap")
 public class TestController {
@@ -14,7 +17,6 @@ public class TestController {
     @RequestMapping( value = "/addUser")
     public String user (@RequestParam String userName) {
         System.out.println("userName is :" + userName);
-//        System.out.println("password is :" + entity.getPassword());
         return userName;
     }
 }

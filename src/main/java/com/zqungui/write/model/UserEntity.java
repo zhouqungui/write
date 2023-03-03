@@ -5,8 +5,13 @@ import lombok.Data;
 @Data
 public class UserEntity {
 
-    // 用户名
+     /**
+      *  userName
+     */
     private String userName;
-    // 密码
+
+    /**
+     *  密码  password
+     */
     private String password;
 }
